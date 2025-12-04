@@ -15,7 +15,7 @@ abstract class BasePage implements Renderable {
         $this->navigasi = $navigasi ?? [
             'Home' => 'index.php?page=home',
             'About' => 'index.php?page=about',
-            'Produk' => 'index.php?page=produk'
+            'Produk' => 'index.php?page=produk',
         ];
     }
 
@@ -30,12 +30,16 @@ abstract class BasePage implements Renderable {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>' . htmlspecialchars($this->judul) . ' - PT. INOVASI DIGITAL</title>
+    <title>' . htmlspecialchars($this->judul) . ' - BAFU COMMUNITY</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: \'Inter\', sans-serif; }
-        html { scroll-behavior: smooth; }
+        body {
+            font-family: \'Inter\', sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 <body class="bg-white">';
@@ -43,12 +47,12 @@ abstract class BasePage implements Renderable {
         $html .= $this->generateHeaderHtml();
         $html .= $this->generateBodyContent();
 
-        // Footer hardcode
+        // Footer hardcode sederhana
         $html .= '
 <footer class="p-4 text-center bg-gray-200">
     <div class="container mx-auto">
-        <p class="text-gray-700">&copy; ' . date('Y') . ' PT. INOVASI DIGITAL. All rights reserved.</p>
-        <p class="text-gray-600 text-sm mt-2">Sistem Web Modular dengan PHP PBO</p>
+        <p class="text-gray-700">&copy; ' . date('Y') . ' BAFU COMMUNITY. All rights reserved.</p>
+        <p class="text-gray-600 text-sm mt-2">Komunitas Digital Terdepan</p>
     </div>
 </footer>';
 
