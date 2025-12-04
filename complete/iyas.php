@@ -265,7 +265,7 @@ $pembagian = ($y4 != 0) ? ($x4 / $y4) : "Error (Bagi 0)";
           <div class="form-row">
             <input type="number" step="0.01" name="x4" value="<?= $x4 != null ? $x4 : '' ?>" placeholder="Masukan Angka">
             <span>/</span>
-            <input type="number" step="0.01" name="y4" value="<?= $y4 != null ? $y4 : '' ?>" placeholder="Masukan Angka">
+            <input type="number" step="0.01" name="y4" value="<?= $y4 != null ? $y4 : ''       ?>" placeholder="Masukan Angka">
             <input type="submit" value="Hitung (/)">
           </div>
           <p class="result">Hasil: <?= $pembagian ?></p>
