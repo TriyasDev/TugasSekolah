@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/view/PoliklinikView.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/view/FormDokterView.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/view/PasienView.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/model/DBkoneksi.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/model/Dokter.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/model/DokterDAO.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/controller/DokterController.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/model/Pasien.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/model/Poli.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/model/PasienDAO.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/controller/PasienController.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/model/PoliDAO.java</file>
+            <file>file:/home/iyass/NetBeansProjects/klinik/src/controller/PoliklinikController.java</file>
+        </group>
+    </open-files>
+</project-private>
